@@ -15,6 +15,7 @@ img{
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 li{
@@ -23,4 +24,68 @@ li{
 
 .container{
   width: 1200px;
+  margin: 0 auto;
+}
+
+#header{
+  padding: 60px;
+  margin-bottom: 40px;
+  position: fixed;
+  background-color: #8c8c8c;
+  width: 100%;
+}
+
+#header .flex-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-header a{
+  color: aliceblue;
+}
+
+.flex-header nav{
+  display: flex;
+}
+
+.flex-header nav li{
+  margin-left: 30px;
+}
+
+.flex-header nav a{
+  color: aliceblue;
+}
+
+#footer{
+  margin-top: 80px;
+  background-color: #8c8c8c;
+  padding-top: 60px;
+}
+
+.flex-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title{
+  color: aliceblue;
+}
+
+.flex-footer ul{
+  padding-right: 200px;
+}
+
+.flex-footer ul li{
+  margin-bottom: 20px;
+}
+
+.flex-footer ul a{
+  color: aliceblue;
+}
+
+#footer p{
+  text-align: center;
+  padding-top: 40px;
+  color: aliceblue;
 }
