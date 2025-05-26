@@ -203,6 +203,7 @@ iframe{
   margin-bottom: 20px;
 }
 
+
 .center{
   display: flex;
   flex-wrap: wrap;
@@ -228,6 +229,12 @@ iframe{
   padding: 20px 0;
   text-align: center;
 }
+
+.map h2{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 
 #footer{
   margin-top: 80px;
