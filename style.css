@@ -30,6 +30,7 @@ li{
 .wrapper{
   width: 800px;
   margin: 0 auto;
+  text-align: center;
 }
 
 #header{
@@ -230,11 +231,54 @@ iframe{
   text-align: center;
 }
 
+.map{
+  margin-bottom: 80px;
+}
+
 .map h2{
   margin-bottom: 40px;
   text-align: center;
 }
 
+.question h2{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.question label{
+  width: 35%;
+  margin-bottom: 30px;
+}
+
+.question input{
+  width: 65%;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+textarea{
+  width: 400px;
+  height: 150px;
+  resize: none;
+}
+
+input ,textarea{
+  border: solid 1px #8c8c8c;
+}
+
+input:last-child{
+  margin-top: 45px;
+  padding: 20px 40px;
+  background-color: #4c4b4b;
+  color: aliceblue;
+  text-align: center;
+}
 
 #footer{
   margin-top: 80px;
