@@ -39,6 +39,7 @@ li{
   position: fixed;
   background-color: #8c8c8c;
   width: 100%;
+  z-index: 50;
 }
 
 #header .flex-header{
