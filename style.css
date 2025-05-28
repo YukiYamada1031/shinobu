@@ -240,6 +240,15 @@ iframe{
   text-align: center;
 }
 
+.schedule{
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.schedule h2{
+  margin-bottom: 40px;
+}
+
 .question h2{
   margin-bottom: 40px;
   text-align: center;
