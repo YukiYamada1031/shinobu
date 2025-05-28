@@ -280,6 +280,14 @@ input:last-child{
   text-align: center;
 }
 
+input:last-child:hover{
+  opacity: 0.7;
+}
+
+input:last-child:active{
+  opacity: 0.5;
+}
+
 #footer{
   margin-top: 80px;
   background-color: #8c8c8c;
